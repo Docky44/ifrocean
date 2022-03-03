@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+    padding: 0 10px;
+    background-color: #ffffff;
+    display: flex;
+    z-index: 50;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+#header .site-brand {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#header .site-brand > span {
+    font-size: 2rem;
+    background-color: transparent;
+    color: #000;
+    padding: 15px;
+}
+
+#site-logo {
+    display: block;
+    width: 50px;
+    height: auto;
+}
+
+.navbar {
+    flex-grow: 1;
+    color: black;
+    padding: 30px;
+    margin-right: 2rem;
+}
+
+.navbar ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    opacity: 1;
+    transition: .2s ease opacity;
+}
+
+.navbar ul li a:hover {
+    opacity: 1;
+    background-color: transparent;
+    color: blue;
+    transition: .2s ease all;
+}
+
+
+
+
+body {
+
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+main {
+    padding-top: 97px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 250px;
+    border-radius: 1rem;
+}
+
+#home-hero {
+    align-items: center;
+    align-content: center;
+    color: black;
+    text-decoration: none;
+
+}
+
+#home-hero > div > h1 {
+    text-align: center;
+
+}
+
+
+
+#home-form {
+    color: black;
+}
+
+#home-form h2 {
+    text-align: center;
+}
+
+#home-form form {
+    padding: 2rem;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-control {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+}
+
+
+
+
+
+.btn {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5rem;
+    transform: scale(1);
+    transition: .2s linear transform;
+}
+
+
+.btn:hover{
+    transform: scale(0.95);
+    transition: .2s linear transform;
+}
+
+.btn-block {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.btn-primary {
+    color: black;
+    background-color: transparent;
+    border-color: blue;
+}
+
+#footer {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    color: black;
+}
+
+#copyright-desc {
+    margin-left: auto;
+    margin-right: auto;
+}
