@@ -3,16 +3,16 @@
     <div class="navbar" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="navbar-brand" href="index.php">Raminagrobis</a>
+                <a class="navbar-brand" href="index.php">IFROCEAN</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="visualiser_formulaires.php">Visualiser les formulaire</a>
+                <a class="nav-link" href="visualiser_etude.php">Visualiser les études</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="creer_form.php">Créer un formulaire</a>
+                <a class="nav-link" href="creer_etude.php">Créer une étude</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="modifier_secteur.php">Visualiser les secteur d'activité</a>
+                <a class="nav-link" href="modifier_plage.php">Visualiser les plages</a>
             </li>
         </ul>
     </div>
