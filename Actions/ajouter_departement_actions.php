@@ -19,9 +19,9 @@ require_once "../config.php";
 //Faire une connexion à la BDD
 $pdo = new PDO("mysql:host=" . Config::SERVER . ";dbname=" . Config::BDD, Config::USER, Config::PASSWORD);
 //Préparer la requête
-$requete = $pdo->prepare("insert into plage(nom) values (:nom)");
+$requete = $pdo->prepare("insert into departement(nom) values (:nom)");
 $requete->bindParam(":nom", $nom);
 
 $requete->execute();
 
-header("location: ../modifier_plage.php");
+header("location: ../modifier_departement.php");

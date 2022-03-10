@@ -13,7 +13,7 @@ $err = filter_input(INPUT_GET, "err");
 <body>
 <header id="header">
     <div class="site-brand">
-        <a href="index.html"> <img id="site-logo" width="640" height="413" src="photo/Ifrocean.png"
+        <a href="index.php"> <img id="site-logo" width="640" height="413" src="photo/Ifrocean.png"
                                    alt="Logo ifrocéan"></a>
         <span>IFROCEAN</span>
     </div>
@@ -24,9 +24,6 @@ $err = filter_input(INPUT_GET, "err");
             </li>
             <li>
                 <a href="connexion.php">Connexion admin</a>
-            </li>
-            <li>
-                <a href="connexion_user.php">Connexion élève</a>
             </li>
         </ul>
     </nav>

@@ -2,11 +2,11 @@
 //pour pouvoir utiliser les sessions
 session_start();
 //token anti forgery (ou anti faille CSRF)
-$token=uniqid();
+$token = uniqid();
 //je le stocke en session
-$_SESSION["token"]=$token;
+$_SESSION["token"] = $token;
 
-$title="Acueil - IFROCEAN";
+$title = "Acueil - IFROCEAN";
 require_once "header.php";
 require_once "navbar_admin.php";
 $err = filter_input(INPUT_GET, "err");
@@ -14,16 +14,18 @@ $err = filter_input(INPUT_GET, "err");
 <body>
 <header id="header">
     <div class="site-brand">
-        <a href="index.html"> <img id="site-logo" width="640" height="413" src="photo/Ifrocean.png"
+        <a href="index.php"> <img id="site-logo" width="640" height="413" src="photo/Ifrocean.png"
                                    alt="Logo ifrocéan"></a>
         <span>IFROCEAN</span>
     </div>
 </header>
+
 <main>
     <section id="home_hero">
         <div class="container">
             <h1>Bienvenue sur le site d'iffrocéan</h1>
-            <p id="presentation">Nous sommes une entreprise qui recense des espèces de la zone intertidale du littoral Nord-Ouest de la
+            <p id="presentation">Nous sommes une entreprise qui recense des espèces de la zone intertidale du littoral
+                Nord-Ouest de la
                 France sur les plages de sables. <br>
                 <br>Le réchauffement climatique rapide auquel sont exposées les espèces du littoral atlantique impacte
                 fortement leur distribution.
@@ -33,6 +35,7 @@ $err = filter_input(INPUT_GET, "err");
         </div>
     </section>
 </main>
+</body>
 
 
 <?php
