@@ -5,6 +5,10 @@
                 <li class="nav-item">
                     <a class="navbar-brand" href="index.php">IFROCEAN</a>
                 </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="modifier_plage.php">Visualiser les plages</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="modifier_commune.php">Visualiser les communes</a>
                 </li>
